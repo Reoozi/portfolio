@@ -7,7 +7,7 @@ import tsConfigPaths from "vite-tsconfig-paths";
 import path from "path";
 
 export default defineConfig({
-  base: "/profile/",
+  base: "/profilio/",
 
   plugins: [
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
